@@ -1,5 +1,13 @@
 /* Global Styles 
 --------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #343434;
     margin: 0;
@@ -23,15 +31,17 @@ a:hover {
 
 h1 {
     font-size: 100px;
+    line-height: 1;
 }
 
 h2 {
-    margin: 0; 
     font-size: 42px;
 }
 
 h1, h2 {
     font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    margin: 0;
 }
 
 .content-wrap {
@@ -73,6 +83,21 @@ header {
 .projects .btn:hover {
     background: rgba(47, 48, 97, 80%);
 }
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
 /* Work Experience
 -------------------------- */
 
@@ -90,4 +115,10 @@ header {
 footer {
     background: #343434;
     color: #f7FFF7
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
 }
