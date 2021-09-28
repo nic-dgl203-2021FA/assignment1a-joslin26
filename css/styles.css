@@ -21,8 +21,13 @@ a:hover {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 100px;
+}
+
 h2 {
     margin: 0; 
+    font-size: 42px;
 }
 
 h1, h2 {
