@@ -22,7 +22,7 @@ img {
 }
 
 a {
-    color: #FF4500;
+    color: white;
 }
 
 a:hover {
@@ -81,7 +81,7 @@ h3 {
 -------------------------- */
 
 header {
-    background-color: #20B2AA;
+    background-color: #FF8C00;
     color: #f7FFF7;
 }
 
@@ -89,7 +89,7 @@ header {
 -------------------------- */
 
 .projects {
-    background: #D6C3C9;
+    background: #dfcbd3;
 }
 
 .projects a {
@@ -98,7 +98,7 @@ header {
 
 .projects .btn {
     color: #F7FFF7;
-    background: #2f3061;
+    background: #7e7e85;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -106,7 +106,7 @@ header {
 }
 
 .projects .btn:hover {
-    background: rgba(47, 48, 97, 80%);
+    background: rgba(182, 64, 29, 0.8);
 }
 
 .project-item {
@@ -143,7 +143,7 @@ header {
 -------------------------- */
 
 footer {
-    background: #343434;
+    background: #FF8C00;
     color: #f7FFF7;
 }
 
