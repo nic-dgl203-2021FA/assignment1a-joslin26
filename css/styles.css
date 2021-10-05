@@ -85,6 +85,19 @@ header {
     color: #f7FFF7;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: #AFD5AA;
+}
+
+.nav a:hover {
+    color:rgba(182, 64, 29, 0.8);
+}
 /* Projects
 -------------------------- */
 
